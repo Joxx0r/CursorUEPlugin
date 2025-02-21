@@ -1,0 +1,36 @@
+# Ignore build files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore user-specific settings
+*.suo
+*.user
+*.userprefs
+*.vscode
+
+# Ignore compiled code
+*.pdb
+*.idb
+*.sln
+*.VC.db
+
+# Ignore Unreal Engine-specific temporary files
+*.log
+*.tmp
+*.db
+*.opendb
+
+# Ignore Unreal Engine auto-generated folders
+.vscode/
+.idea/
+VSCode/
+
+# Ignore large auto-generated Unreal files
+Source/*.generated.*
+Source/*.bak
+
+# This is current disabled based on the large amount of textures this is and no dataplan to handle this globally
+Content/UI/Icons/
