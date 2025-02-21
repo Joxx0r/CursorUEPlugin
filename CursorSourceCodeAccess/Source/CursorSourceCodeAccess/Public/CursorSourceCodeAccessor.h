@@ -32,7 +32,7 @@ public:
 
 private:
 
-	/** Wrapper for vscode executable launch information */
+	/** Wrapper for Cursor executable launch information */
 	struct FLocation
 	{
 		bool IsValid() const

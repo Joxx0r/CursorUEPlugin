@@ -46,7 +46,7 @@ FString FCursorSourceCodeAccessor::GetSolutionPath() const
 	return CachedSolutionPath;
 }
 
-/** save all open documents in visual studio, when recompiling */
+/** save all open documents in Cursor, when recompiling */
 static void OnModuleCompileStarted(bool bIsAsyncCompile)
 {
 	FCursorSourceCodeAccessModule& CursorAccessModule = FModuleManager::LoadModuleChecked<FCursorSourceCodeAccessModule>(TEXT("CursorSourceCodeAccess"));
